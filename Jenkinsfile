@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch : 'main',url : 'hhttps://github.com/PrekshaPS04/l8.git'
+                git branch : 'main',url : 'https://github.com/PrekshaPS04/l8.git'
             }
         }
 
